@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    text-align: center;
+    background: linear-gradient(180deg, skyblue, rgb(36, 36, 143));
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+#card_title1{
+    font-family: 'Merriweather', serif;
+
+}
+.card-body{
+    background-color: #87ceeb;
+    font-family: 'Zilla Slab', serif;
+}
+.card_title{
+    background-color: #87ceeb;
+    font-family: 'Zilla Slab', serif;
+    
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
